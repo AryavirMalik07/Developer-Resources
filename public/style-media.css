@@ -1,0 +1,204 @@
+@media only screen and (max-width: 1100px) {
+  html {
+    font-size: 65%;
+  }
+  .login_credit {
+    display: flex;
+    width: 100%;
+    height: auto;
+    gap: 1rem;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  html {
+    font-size: 56%;
+  }
+
+  header {
+    padding: 1.5rem 2rem 3rem 2rem;
+    width: 100%;
+    height: auto;
+  }
+
+  .header_main-heading {
+    margin-top: 25rem;
+    text-align: center;
+    width: 100%;
+    font-size: 4.2rem;
+  }
+
+  .join_us {
+    margin-top: 10rem;
+    font-size: 2.2rem;
+  }
+
+  .information_main {
+    width: 100%;
+    gap: 1.5rem;
+  }
+
+  .name,
+  .email,
+  .btn--white {
+    font-size: 2.4rem;
+  }
+
+  .setup {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 5rem;
+    row-gap: 5rem;
+  }
+
+  .development_tools,
+  .css_resources,
+  .html_sources,
+  .js_resources,
+  .font_typography_tools,
+  .colors_resource,
+  .images_resource,
+  .icon_tools_resource {
+    padding: 5rem 2rem 2rem 2rem;
+  }
+
+  .login_credit {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  html {
+    font-size: 45%;
+  }
+
+  header {
+    padding: 0;
+    width: 100%;
+    height: auto;
+  }
+  .header_main-heading {
+    margin-top: 10rem;
+    text-align: center;
+    width: 100%;
+    font-size: 3rem;
+  }
+  .join_us {
+    margin-top: 10rem;
+    font-size: 2rem;
+  }
+
+  .intro {
+    font-size: 1.2rem;
+  }
+
+  .nav_link {
+    font-size: 1.2rem;
+  }
+
+  .nav_image {
+    width: 1.5rem;
+    margin-right: 0.1rem;
+    /* display: flex; */
+  }
+
+  .heading {
+    margin-top: 2rem;
+  }
+
+  header {
+    padding: 1.5rem 3rem 3rem 3rem;
+    background-image: linear-gradient(to top right, #4ed8f7, #26afeb 70%);
+  }
+
+  .site_logo {
+    width: 3rem;
+  }
+
+  .informations {
+    display: flex;
+    /* width: 100%; */
+    flex-direction: column;
+  }
+
+  .setup {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  /* .development_tools{
+        /* padding: 5rem 15rem 5rem 15rem; */
+  /* padding: 0 0.5rem .5rem 0; */
+  /* } */
+  /* .html_sources.setup .description{
+        width: 100%;
+    } */
+  .css_resources .setup {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  .development_tools,
+  .css_resources,
+  .icon_tools_resource,
+  .colors_resource,
+  .html_sources,
+  .font_typography_tools,
+  .images_resource,
+  .js_resources {
+    /* padding: 5rem 15rem 5rem 15rem; */
+    padding: 0 2rem 0 2rem;
+    /* margin-top: 1rem; */
+  }
+
+  .js_resources.heading,
+  .colors_resource.heading,
+  .css_resources.heading,
+  .development_tools.notes_image {
+    margin-top: 1.5rem;
+  }
+
+  .js_resources .setup,
+  .html_sources .setup,
+  .colors_resource .setup,
+  .images_resource .setup,
+  .icon_tools_resource .setup {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    width: 100%;
+  }
+
+  .login_credit {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .developer_footer {
+    width: 3rem;
+  }
+  .login_credit {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .aryavir {
+    width: 6rem;
+    height: 6rem;
+  }
+  .developer_footer {
+    width: 6rem;
+  }
+  .success-para {
+    width: 100%;
+  }
+}
